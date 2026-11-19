@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "seg_speed_render"
+version = "1.8.0"
+name = "分段倍速渲染 Segment Speed Render"
+tagline = "同一条时间线分段使用不同帧步长，局部倍速并省渲染时间"
+maintainer = "Lumina"
+type = "add-on"
+tags = ["Render", "Animation"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]

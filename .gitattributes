@@ -1,0 +1,9 @@
+# 统一换行，避免 Windows 开发 + 其他平台克隆时整仓 diff
+* text=auto eol=lf
+
+*.zip binary
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp4 binary
+*.blend binary

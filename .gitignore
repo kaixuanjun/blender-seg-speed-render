@@ -1,0 +1,34 @@
+# ---- Blender / Python 产物 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.blend1
+*.blend2
+*.blend@
+
+# ---- 构建与运行产物 ----
+build/
+tmp/
+logs/
+dist/*-with-ffmpeg.zip
+
+# ---- 测试运行输出 ----
+tests/artifacts/
+tests/*_state.json
+tests/test_freq.wav
+tests/test_tone.wav
+
+# ---- 渲染临时目录（插件在成片旁生成）----
+_segments_tmp/
+seg_speed_audio.log
+seg_speed_render.log
+_bg_*.blend
+_bg_driver.py
+_bg_watch.py
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*
